@@ -1,0 +1,5 @@
+{
+  "extends": "@vdian/typescript-config-weidian",
+  "compilerOptions": { "target": "es5" },
+  "include": ["**/*.ts"]
+}

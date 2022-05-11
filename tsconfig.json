@@ -1,0 +1,9 @@
+{
+  "extends": "@vdian/typescript-config-weidian",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "./lib",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}

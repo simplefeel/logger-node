@@ -1,0 +1,14 @@
+.DS_Store
+.git
+.idea
+*.zip
+*.log
+*.rej
+/hap.config.js
+node_modules
+/coverage
+/build
+/dist
+/lib
+/commonjs
+/document

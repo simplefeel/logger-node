@@ -1,0 +1,4 @@
+{
+  "extends": "@vdian/typescript-config-weidian",
+  "include": ["**/*.ts"]
+}

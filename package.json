@@ -1,0 +1,53 @@
+{
+  "category": "",
+  "materialType": "component",
+  "materialSubType": "node",
+  "name": "@vdian/nodex-plugin-logger",
+  "title": "",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "homepage": "",
+  "repository": "",
+  "keywords": [],
+  "screenshot": [],
+  "sketchlink": [],
+  "main": "./commonjs/index.js",
+  "module": "./lib/index.js",
+  "vuepress": {
+    "siteConfig": {
+      "themeConfig": {
+        "navbar": false
+      }
+    }
+  },
+  "publishConfig": {
+    "registry": "http://npm.idcvdian.com/"
+  },
+  "scripts": {
+    "commit": "hap-next commit",
+    "dev": "hap-next run dev",
+    "daily": "hap-next run daily",
+    "pre": "hap-next run pre",
+    "prod": "hap-next run prod",
+    "test": "hap-next test",
+    "lint": "hap-next lint",
+    "prepublishOnly": "hap-next run prod"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@vdian/hap-next": "0.1.0",
+    "@vdian/hap-preset-component-node": "0.1.2"
+  },
+  "dependencies": {
+    "chalk": "4.0.0",
+    "dayjs": "^1.11.1",
+    "fs-extra": "^10.1.0",
+    "globby": "10.0.0",
+    "lodash": "^4.17.21",
+    "tslib": "^2.3.1"
+  },
+  "maintainers": [
+    "zhangshangjin"
+  ]
+}
